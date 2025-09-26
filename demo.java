@@ -6,6 +6,7 @@ class Main {
         System.out.println("the string is palindrome: " + status);
     }
     public static boolean isPalindrome(String s){
+	// converted to lower case
         s = s.toLowerCase();
         String rev = "";
         char[] ch = s.toCharArray();
