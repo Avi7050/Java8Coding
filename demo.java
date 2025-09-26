@@ -6,7 +6,7 @@ class Main {
         System.out.println("the string is palindrome: " + status);
     }
     public static boolean isPalindrome(String s){
-        s = s.toLowerCase();
+        s = s.toUpperCase();
         String rev = "";
         char[] ch = s.toCharArray();
         int i = s.length() - 1;
